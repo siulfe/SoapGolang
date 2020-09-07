@@ -37,7 +37,7 @@ func main(){
 	server.RegisterHandler(
 		// Ruta
 		"/person",
-		// SOAPAction
+		// SOAPAction - Identificador que debe llamar el cliente cuando hace la petición
 		"GetPerson",
 		// tagname of soap body content
 		"request",
